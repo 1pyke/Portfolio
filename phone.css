@@ -1,0 +1,41 @@
+/* Home */
+#home{
+    height: 820px;
+}
+.headings{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+}
+.size{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* About */
+#pic img{
+    width: 300px;
+    height: 175px;
+}
+#intro h2{
+    font-size: 1.5rem;
+}
+/* protflio */
+.gallery img{
+    width: 270px;
+     height: 150px;
+     margin: 10px;
+}
+/* Contact */
+.input{
+    width: 80%;
+
+}
+#msg {
+    width: 70%;
+}
+#send{
+    width: 20%;
+}
