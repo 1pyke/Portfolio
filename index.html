@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
     <link rel="stylesheet" media="screen and (max-width: 530px)" href="phone.css">
@@ -22,9 +24,10 @@
     <section id="home">
         <div class="main">
             <h1 class="headings"> I Am <br> LIETH KH ZAITOUN</h1>
-            <button class="btn">
+            <a href="/protfolio/Lieth_Zaitoun_Resume_3.PDF" download><button class="btn" id="button">
                 Download CV
             </button>
+        </a>
         </div>
     </section>
     <section id="about">
@@ -33,7 +36,16 @@
             <img src="IMG_9818.PNG" alt="">
             <div id="intro">
                 <h2> LIETH KH ZAITOUN</h2>
-                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic soluta ratione officiis? Laudantium aliquid ipsum laborum! Quas dolorem neque, laudantium minus itaque fuga voluptatum at ut? Saepe ullam laboriosam assumenda.</P>
+                <h3><P>Born Dec 5th, 1999, Studied Computer Science at Jerash University. ever since my childhood I've had a passion towards Music where I became a Music producer where I pursued my passtionand for 3 years and got Verified on Spotify as a Musician, I distribute my music for 4 years but then in 2017 I started to learn more about programing in general and built my first website using HTML5, CSS and I'm glad that I have got into web development.
+                    <br>
+                    <br>
+                    up until last year where I have got used to writing code and learning more about front-end development till today I'm still learning and i have so many goals to achieve and I'm pretty sure that I'll achieve them, during my learning gaurny I've worked on multiple projects using HTML5, CSS3, and JavaScript.
+                    <br>
+                    <br>
+                    I've completed a course on udemy (<a href="https://www.udemy.com/course/the-web-developer-bootcamp/">BootCamp 2021 By colt</a> ).
+                    <br>
+                    <br>
+                    My goals are That I wanna learn vue langue or react and become a master in front-end </P></h3>
             </div>
         </div>
     </section>
@@ -45,48 +57,71 @@
             <img src="protfolio/js.png" alt="">
             <img src="protfolio/bootstrab.png" alt="">
             <img src="protfolio/git.png" alt="">
+            <!-- <img src="protfolio/img6.jfif" alt=""> -->
 
         </div>
     </section>
     <section id="servicse">
-        <h1 class="headings">Projects</h1>
-        <div class="row">
+        <h1 id="headings" class="projects">PROJECTS</h1>
+        <div class="row projects ">
             <div class="box">
                 <img src="protfolio/money2.jpg" alt="">
                 <h1 class="headings">MASROOFI <br> App </h1>
-                <p class="size">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eius sapiente reprehenderit pariatur obcaecati consequuntur voluptate facilis assumenda sit mollitia omnis molestias, at odit nam quod natus ea ullam tempore!</p>
+                <p class="size">MASROOFI APP Counting money is an important skill you will use in everyday life but 
+                with MASROOFI it's much easir to count your money and all your expenses sorts by categorys.
+                there is an history and date-time for all of your expenses and you can see them charts so u know whats the most thing you spent money on
+             </p>
             </div>
         
         <div class="box">
             <img src="protfolio/Memmory-game2.jpg" alt="">
             <h1 class="headings">Memory<br> Game</h1>
-            <p class="size">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eius sapiente reprehenderit pariatur obcaecati consequuntur voluptate facilis assumenda sit mollitia omnis molestias, at odit nam quod natus ea ullam tempore!</p>
+            <p class="size">The memory game is a common game played with a set of cards. ... If the two cards have the same picture, then they keep the cards, otherwise they turn the cards face down again </p>
         </div>
         <div class="box">
             <img src="protfolio/Meditation App.png" alt="">
             <h1 class="headings">Meditation App</h1>
-            <p class="size">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eius sapiente reprehenderit pariatur obcaecati consequuntur voluptate facilis assumenda sit mollitia omnis molestias, at odit nam quod natus ea ullam tempore!</p>
+            <p class="size"> Meditation App for focusing the mind on a particular object , thought, or activity, by playing a quit music that i produced – to train attention and awareness, and achieve a mentally clear and emotionally calm and stable state. </p>
         </div>
         <div class="box">
             <img src="protfolio/Karnov.jpg" alt="">
             <h1 class="headings">Karnov <br> Beats </h1>
-            <p class="size">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eius sapiente reprehenderit pariatur obcaecati consequuntur voluptate facilis assumenda sit mollitia omnis molestias, at odit nam quod natus ea ullam tempore!</p>
+            <p class="size">I'm Karnov a Nashville-Base Music Producer who meld modern electronic POP with the grit and authenticity of hip hop and soul, This website for buying my music/beats or looking for collaborate with a music producer.</p>
         </div>
         <div class="box">
             <img src="protfolio/Pokemon.jpg" alt="">
             <h1 class="headings">Pokemon</h1>
-            <p class="size">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eius sapiente reprehenderit pariatur obcaecati consequuntur voluptate facilis assumenda sit mollitia omnis molestias, at odit nam quod natus ea ullam tempore!</p>
+            <p class="size">A simple website that count all the pokemons in the world :)</p>
         </div>
     </div>
     </section>
-    <section id="contact">
-        <h1 class="headings">CONTACT</h1>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter Your Name">
-            <input type="email" name="email" class="input" placeholder="Enter Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <input type="submit" value="SEND" id="send">
-        </form>
-    </section>
+        <footer id="contact">
+            <div class="footerBackground" style="padding: 80px 0;" align="center">
+                <a href="https://www.facebook.com/lieth.zaitoun.3">
+                    <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="https://twitter.com/lieth59594679">
+                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox">
+                            <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/lieth-zaitoun-57039a225/">
+                                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                            </a>
+                            <a href="https://www.instagram.com/karnovofficial/">
+                                    <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                                </a>
+                                <a href="https://github.com/1pyke">
+                                        <i class="fa fa-github fa-lg white-text fa-2x"></i>
+                                    </a>
+            </div>
+            <div style="background: #004872;">
+                <p style="color: #91BEC2; padding: 15px 0; margin-bottom: 0;" align="center">
+                    &copy; 2021 Copyright for: Lieth Zaitoun
+                </p>
+            </div>
+        </footer>
+        <script src="app.js"></script>
 </body>
 </html>

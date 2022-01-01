@@ -71,8 +71,7 @@ html{
     right: 10%;
 }
 .headings{
-    font-family: century;
-    font-size: 3rem;
+    font-family:serif;
     text-align: center;
     margin: 40px 0px;
 
@@ -106,8 +105,11 @@ html{
     display: flex;
 }
 #pic img{
-    width: 575px;
-    height: 400px;
+    width: 500px;
+    height: 350px;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: auto;
 }
 #intro{
     display: flex;
@@ -119,15 +121,26 @@ html{
 #intro h2{
     font-size: 2rem;
     margin-bottom: 20px;
+    font-family:monospace;
 
+}
+#intro h3{
+    font-size: medium;
+    font-family:cursive;
 }
 /* Protfolio Section */
 #protfolio{
     display: flex;
     flex-direction: column;
-    background-color: rgb(0, 0, 0, 0.9);
-    color: white;
+    color: black;
     align-items: center;
+    font-family: century;
+    padding: 20px;
+}
+.projects{
+    color: black;
+    text-align: center;
+    font-family: century;
     padding: 20px;
 }
 .gallery{
@@ -149,7 +162,7 @@ html{
     /* margin: 10px; */
 
 }
-.row{
+.projects{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -163,7 +176,7 @@ html{
     border: 1px solid black;
     margin: 10px;
     align-items: center;
-    text-align: justify;
+    /* text-align:justify;  */
     padding: 10px;
     border-radius: 15px;
     background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
@@ -174,7 +187,14 @@ html{
     background-position: left bottom;
     color: white;
     border: none;
+    text-align: center;
+    font-size: 0.9rem;
     box-shadow: 0 0 20px rgb(255,45,45);
+}
+.size{
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
 }
 .box img{
     width: 80px;
