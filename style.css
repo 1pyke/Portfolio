@@ -105,8 +105,8 @@ html{
     display: flex;
 }
 #pic img{
-    width: 1700px;
-    height: 400px;
+    width: 125%;
+    height: 25rem;
     border-radius: 50%;
     margin-right: 2rem;
     margin-top: auto;
