@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -16,27 +17,31 @@ html {
   position: sticky;
   top: 0;
 }
+
 .navbar ul {
   display: flex;
   list-style: none;
   margin: 20px 0px;
 }
+
 .navbar ul li {
   font-family: century;
   font-size: 1.1rem;
   font-weight: bold;
 }
+
 .navbar ul li a {
   text-decoration: none;
   color: white;
   padding: 8px 25px;
-  transition: all 0.5s ease;
 }
+
 .navbar ul li a:hover {
   background-color: white;
   color: black;
   box-shadow: 0 0 10px white;
 }
+
 /* Home Section */
 #home {
   display: flex;
@@ -47,6 +52,7 @@ html {
   align-items: center;
   color: white;
 }
+
 #home::before {
   content: "";
   position: absolute;
@@ -58,6 +64,7 @@ html {
   z-index: -1;
   opacity: 0.8;
 }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -67,11 +74,13 @@ html {
   top: 30%;
   right: 10%;
 }
+
 .headings {
   font-family: serif;
   text-align: center;
   margin: 40px 0px;
 }
+
 .btn {
   padding: 10px 35px;
   background: transparent;
@@ -80,6 +89,7 @@ html {
   outline: none;
   transition: 0.6 ease;
 }
+
 .btn:hover {
   cursor: pointer;
   background-color: white;
@@ -87,6 +97,7 @@ html {
   box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
   font-weight: bold;
 }
+
 /* About Section */
 #about {
   display: flex;
@@ -95,9 +106,11 @@ html {
   padding: 20px;
   margin-bottom: 50px;
 }
+
 #pic {
   display: flex;
 }
+
 #pic img {
   width: 125%;
   height: 25rem;
@@ -105,21 +118,25 @@ html {
   margin-right: 2rem;
   margin-top: auto;
 }
+
 #intro {
   display: flex;
   flex-direction: column;
   text-align: justify;
   padding: 10px;
 }
+
 #intro h2 {
   font-size: 2rem;
   margin-bottom: 20px;
   font-family: monospace;
 }
+
 #intro h3 {
   font-size: medium;
   font-family: cursive;
 }
+
 /* Protfolio Section */
 #protfolio {
   display: flex;
@@ -129,12 +146,14 @@ html {
   font-family: century;
   padding: 20px;
 }
+
 .projects {
   color: black;
   text-align: center;
   font-family: century;
   padding: 20px;
 }
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -142,11 +161,13 @@ html {
   box-sizing: border-box;
   margin-top: 50px;
 }
+
 .gallery img {
   width: 250px;
   height: 190px;
   margin: 30px;
 }
+
 /* Services Section */
 #servicse {
   display: flex;
@@ -154,12 +175,14 @@ html {
   padding: 30px;
   /* margin: 10px; */
 }
+
 .projects {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
 }
+
 .box {
   display: flex;
   flex-direction: column;
@@ -175,6 +198,7 @@ html {
   background-size: 100% 200%;
   transition: all 0.8s;
 }
+
 .box:hover {
   background-position: left bottom;
   color: white;
@@ -183,11 +207,13 @@ html {
   font-size: 0.9rem;
   box-shadow: 0 0 20px rgb(255, 45, 45);
 }
+
 .size {
   font-size: 0.9rem;
   font-weight: bold;
   text-align: center;
 }
+
 .box img {
   width: 80px;
   height: 80px;
@@ -195,6 +221,7 @@ html {
   border-radius: 44px;
   background-color: white;
 }
+
 /* Contact Section */
 #contact {
   display: flex;
@@ -204,6 +231,7 @@ html {
   color: white;
   padding: 20px;
 }
+
 .form {
   display: flex;
   flex-direction: column;
@@ -211,6 +239,7 @@ html {
   align-items: center;
   margin: 20px 0px;
 }
+
 .input {
   padding: 12px;
   margin: 15px;
@@ -218,6 +247,7 @@ html {
   border: none;
   outline: none;
 }
+
 #msg {
   width: 20%;
   padding: 10px;
@@ -225,6 +255,7 @@ html {
   border: none;
   outline: none;
 }
+
 #send {
   padding: 10px;
   width: 10%;
@@ -232,6 +263,7 @@ html {
   border: none;
   outline: none;
 }
+
 #send:hover {
   cursor: pointer;
   box-shadow: 0 0 10px white;
